@@ -1,9 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/08 18:42:54 by pabalvar          #+#    #+#             */
+/*   Updated: 2026/06/08 19:01:37 by pabalvar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FIXED_HPP
 #define FIXED_HPP
 
 #include <iostream>
 
-class Fixed {
+class Fixed 
+{
 public:
     Fixed( void );
     Fixed( Fixed const & src );
@@ -24,4 +37,4 @@ private:
 
 std::ostream & operator<<( std::ostream & os, Fixed const & value );
 
-#endif // FIXED_HPP
+#endif

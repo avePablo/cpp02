@@ -3,12 +3,13 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: user <user@42school.com>                    +#+  +:+       +#+         #
+#    By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/03/30 00:00:00 by user               #+#    #+#              #
-#    Updated: 2026/03/30 00:00:00 by user              ###   ########.fr        #
+#    Created: 2026/06/08 18:43:31 by pabalvar          #+#    #+#              #
+#    Updated: 2026/06/08 18:43:34 by pabalvar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
 
 NAME = fixed
 SRCS = main.cpp Fixed.cpp

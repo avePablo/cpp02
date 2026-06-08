@@ -1,7 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pabalvar <pabalvar@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/08 18:42:33 by pabalvar          #+#    #+#             */
+/*   Updated: 2026/06/08 18:59:27 by pabalvar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FIXED_HPP
 #define FIXED_HPP
 
-class Fixed {
+class Fixed 
+{
 public:
     Fixed( void );
     Fixed( Fixed const & src );
@@ -16,4 +29,4 @@ private:
     static const int _fractionalBits = 8;
 };
 
-#endif // FIXED_HPP
+#endif
